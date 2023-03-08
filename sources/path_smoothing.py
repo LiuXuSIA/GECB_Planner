@@ -4,6 +4,7 @@
 path_smootging.py
 author: 'liuxu'
 email: liuxu172@mails.ucas.ac.cn
+reference: https://github.com/zhipeiyan/kappa-Curves
 '''
 
 '''
