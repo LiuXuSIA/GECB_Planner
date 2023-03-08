@@ -40,7 +40,7 @@ Particularly,  **the usage of path smoothing:**
  * gecb_planner.py
  
  which can generate G2-continuous trajectories from the sparse terrain data.
- ## Demo
+ ## Demos
  These demos demonstrate the processes and results of the path generation and path smoothing.
  
  <img src="http://c.nxw.so/aAb4H" width="320"/>  <img src="http://c.nxw.so/bkNAa" width="395"/>
