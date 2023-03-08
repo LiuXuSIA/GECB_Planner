@@ -40,7 +40,9 @@ These three modules can be executed individually.
  
  which can generate G2-continuous trajectories from sparse terrain data.
  ## Demo
-![image](http://c.nxw.so/aAb4H =350x350)   ![image](http://c.nxw.so/bkNAa =350x350)
+ <img src="http://c.nxw.so/aAb4H" width="320" />
+  <img src="http://c.nxw.so/bkNAa" width="395" />
+  
 path generation (left) and path smoothing (right)
  
 ## License
