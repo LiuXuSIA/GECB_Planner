@@ -40,9 +40,8 @@ These three modules can be executed individually.
  
  which can generate G2-continuous trajectories from sparse terrain data.
  ## Demo
- <img src="https://lh3.googleusercontent.com/wjO2O6AC3KiT8Tvf1tV632XxUKghCvYSaN67EaIBuutHq9d2D4z2w0MC5YVU3nS2DuDfma4qc7MCUJu0sOKSGgX5GyINN__L-LHEaa2EPtoEPRwMyvZZpjYvuTMuwmbM3dDvpT8VTnYqBZwDRkVeSJu_r0WH0SFSeENxqxqXUntxVX2FAmYSxnB4OtnP9inXfkSYQrNYL_fORaQeXO1SdpBBOAA8_Iqr-Hk-CigIpmetGdVqMzDJYFHfHox9ehpHbZt9bG_9SZ3obZNsf55-6eJeRW_2I6e5Af3dlhDQpvEKGUcu5e1ZPTBNL0bBhbMk8pZ7hs4PIgFfrj4kpQXktkyDN_X2hkKPPy02rLcC2QNffTDAq7Qs12n_j0UTW8w6FGLceeN9PsSUVI__23_HauS67BseWVi1psd5adCTSRklVQQMU1iDN8FSdXFXiwdH9u6Qtfl13u09chQxMWbpwM0mkKkFmBFjMg57pDdpkMs3zXAzXG0YuROcO9TlEUTyA3oOCiMCgW5nD604Ohw7YiWhhlh_Gdamww-nrno0nqnFx81uP-AGEIlNoFiD96fHKtzJg61Hb883kf_DiLxTT1BJm3L6bUn-rtMJyyrM3wvZwXpcJIWk_Ybl3nIQnbB29pVxxFj6-d5iotFd4K1G5JE6Vl2u3fiCSt2gVHQBcpN2Excumb07B5j9jn038JegiqekXXXL097_saep6Qf3jVpETUetHFD9GNcy4QQmg0yCLNtA9AxkW9Qq_ABV4nx4ZWDkTEPUZVN01Tww8i6GSI5IV1r0kLpWrmfEredSSL_ZuTFWOYhcwTIzT-O8eUJ572U5EmVlTbsI_walYJadVrJzFO_vq7BrKuxHNBppqOSihpnluu_TmM0RETutJPvPnJ1xyebXInF5yTwOqe37O2PalgBckBJroFTH4U1bIE2z=w828-h776-no?authuser=0" width="320" />
- 
- <img src="http://c.nxw.so/bkNAa" width="395" />
+ <img src="http://c.nxw.so/aAb4H" width="320" />
+  <img src="http://c.nxw.so/bkNAa" width="395" />
   
 path generation (left) and path smoothing (right)
  
