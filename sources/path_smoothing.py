@@ -9,10 +9,10 @@ email: liuxu172@mails.ucas.ac.cn
 '''
 uasge:
 1) run the code
-2) click left mouse button to determine the control points
-3) press the space key to generate curve
-4) press the right mouse button to mteick the control points
-5) press escape to clear the canvas
+2) click "left mouse button" to determine the control points
+3) press the "space key" to generate the curve
+4) click the "right mouse button" to tweak the control points
+5) press the "escape key" to clear the canvas
 6) 2)->5)
 
 '''

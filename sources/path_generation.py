@@ -221,8 +221,8 @@ if __name__ == '__main__':
 
     X, Y = data[:,0:2], data[:,2]
     X2predicted = []
-    for x in np.linspace(np.min(X[:,0])+2, np.max(X[:,0])-2, 260):
-        for y in np.linspace(np.min(X[:,1])+3, np.max(X[:,1])-2, 260):
+    for x in np.linspace(np.min(X[:,0])+2, np.max(X[:,0])-2, 200):
+        for y in np.linspace(np.min(X[:,1])+3, np.max(X[:,1])-2, 200):
             X2predicted.append([x,y])
     X2predicted = np.array(X2predicted)
     
