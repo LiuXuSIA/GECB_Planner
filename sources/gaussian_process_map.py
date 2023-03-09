@@ -72,6 +72,7 @@ class RQkernel(): # rational quadratic kernel, shown in Equation (3)
 class GPR(): #Gaussian process regression
     def __init__(self, kernel=None, alpha=1e-10, optimizer="L-BFGS-B"):
         print("mapping start!")
+        print("please wait. This process may take some time!")
         self.kernel = kernel
         self.alpha = alpha
         self.optimizer = optimizer
