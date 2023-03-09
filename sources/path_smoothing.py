@@ -11,11 +11,11 @@ reference: https://github.com/zhipeiyan/kappa-Curves
 uasge:
 1) run the code
 2) click "left mouse button" to determine the control points
+   Ensure there are at least four control points
 3) press the "space key" to generate the curve
 4) click the "right mouse button" to tweak the control points
 5) press the "escape key" to clear the canvas
 6) 2)->5)
-
 '''
 
 import numpy as np
@@ -93,7 +93,7 @@ def lamb(c0, c1, c3, c4):
         mat = np.c_[B-A, C-B]
         return np.abs(np.linalg.det(mat))
     # to avoid having a zero denominator in the case of the three points are collinear
-    return np.sqrt(temp(c0, c1, c3)) / (np.sqrt(temp(c0, c1, c3)+1e-10) + np.sqrt(temp(c1, c3, c4)+1e-10))
+    return np.sqrt(temp(c0, c1, c3)) / (np.sqrt(temp(c0, c1, c3)) + np.sqrt(temp(c1, c3, c4)))
 
 
 # paras_iter_play -> if display the iteration of the curve

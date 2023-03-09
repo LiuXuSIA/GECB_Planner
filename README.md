@@ -1,7 +1,9 @@
 # GECB planner
-## [IROS2023] Gradient-Enhanced Path Generation and Quadratic Bezier-Based Path Smoothing for Unstructured Environments
+## Gradient-Enhanced Path Generation and Quadratic Bezier-Based Path Smoothing for Unstructured Environments
+[![CodeFactor](https://www.codefactor.io/repository/github/liuxusia/gecb_planner/badge)](https://www.codefactor.io/repository/github/liuxusia/gecb_planner) ![](https://img.shields.io/github/last-commit/LiuXuSIA/GECB_Planner)  ![](https://img.shields.io/github/languages/top/LiuXuSIA/GECB_Planner)
+![](https://img.shields.io/github/license/LiuXuSIA/GECB_Planner)
 
-This is an implementation with an easy-run demo of the navigation pipeline proposed in IROS 2023. Developed for unstructured environments, this navigation pipeline involves the terrain gradient modeling, path generation, and post-smoothing. The terrain gradients are derived from continuous terrain representation using Gaussian process.  By using the high-entropy terrain gradients, we developed a grid search based path generation technique which omits the collision-checking process but can still achieve collision-free paths. These piece-wise linear paths are then optimized using the proposed quadratic Bezier curve based smoothing technique, which can generate G2-continuous trajectories almost everywhere and can control the local maximum curvatures conveniently.
+This is an implementation with an easy-run demo of the navigation pipeline named **GECB planner** ( Gradient-Enhanced and Quadratic Bezier-Based path planner). Developed for unstructured environments, this navigation pipeline involves the terrain gradient modeling, path generation, and post-smoothing. The terrain gradients are derived from continuous terrain representation using Gaussian process.  By using the high-entropy terrain gradients, we developed a grid search based path generation technique which omits the collision-checking process but can still achieve collision-free paths. These piece-wise linear paths are then optimized using the proposed quadratic Bezier curve based smoothing technique, which can generate G2-continuous trajectories almost everywhere and can control the local maximum curvatures conveniently.
 ## Dependencies
 Our implementation is based on the following modules:
 * numpy $\rightarrow$ 1.12.6
@@ -26,7 +28,8 @@ Particularly,  **the usage of path smoothing:**
 
 1) run the code
 
-2) click the ***left mouse button***  to determine the control points
+2) click the ***left mouse button***  to determine the control points,
+    and ensure there are at least four control points
 
 3) press the ***space key*** to generate the curve
 
