@@ -36,8 +36,7 @@ class gecb_planner():
         self.X2predicted = np.array(X2predicted)
         
         #the bounds of the kernel parameters have strong influence on the gradient calculation,
-        #they can not be too small, or the gradient will be very incorrect
-        gpr = gpm.GPR(kernel=RQkernel(length_scale_bounds=(10, 1e5), alpha_bounds=(10, 1e5)))
+        gpr = gpm.GPR(kernel=RQkernel(length_scale_bounds=(1e-5, 1e5), alpha_bounds=(1e-5, 1e5)))
         gpr.fit(X, Y)
         # training_mse = np.sum((Y_test-Y_predicted)**2)/len(Y_test)
         # print("training_mse", training_mse)

@@ -102,12 +102,12 @@ class GridSearchPlanner:
                 # If the node is not safe, do nothing
                 if not self.verify_node(current):
                     continue
-                # the elevation change 3
+                # the elevation change
                 added_cost = np.abs(self.elevation_map[current.x][current.y] - \
                     self.elevation_map[current.x + self.motion[i][0]][current.y + self.motion[i][1]])*self.w_elevation
-                # the traveled gradient  1
+                # the traveled gradient
                 added_cost += self.gradient_map[current.x + self.motion[i][0]][current.y + self.motion[i][1]]*self.w_gradient
-                # the traveled distance   0.01
+                # the traveled distance
                 added_cost += math.hypot(self.motion[i][0], self.motion[i][1])*self.w_distance
                 node = self.Node(current.x + self.motion[i][0],
                                  current.y + self.motion[i][1],
@@ -226,7 +226,7 @@ if __name__ == '__main__':
             X2predicted.append([x,y])
     X2predicted = np.array(X2predicted)
     
-    gpr = gpm.GPR(kernel=RQkernel(length_scale_bounds=(10, 1e5), alpha_bounds=(10, 1e5)))
+    gpr = gpm.GPR(kernel=RQkernel(length_scale_bounds=(1e-5, 1e5), alpha_bounds=(1e-5, 1e5)))
     gpr.fit(X, Y)
    
     Y_predicted, gradient_predicted = gpr.predict(X2predicted, return_gradient=True)

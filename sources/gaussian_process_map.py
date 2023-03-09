@@ -148,7 +148,7 @@ if __name__ == '__main__':
             X2predicted.append([x,y])
     X2predicted = np.array(X2predicted)
 
-    gpr = GPR(kernel=RQkernel(length_scale_bounds=(10, 1e5), alpha_bounds=(10, 1e5)))
+    gpr = GPR(kernel=RQkernel(length_scale_bounds=(1e-5, 1e5), alpha_bounds=(1e-5, 1e5)))
     gpr.fit(X, Y)
     Y_predicted, gradient_predicted = gpr.predict(X2predicted, return_gradient=True)
     gradients = np.sqrt(gradient_predicted[:,0]**2+gradient_predicted[:,1]**2)

@@ -92,7 +92,6 @@ def lamb(c0, c1, c3, c4):
     def temp(A, B, C):
         mat = np.c_[B-A, C-B]
         return np.abs(np.linalg.det(mat))
-    # to avoid having a zero denominator in the case of the three points are collinear
     return np.sqrt(temp(c0, c1, c3)) / (np.sqrt(temp(c0, c1, c3)) + np.sqrt(temp(c1, c3, c4)))
 
 
