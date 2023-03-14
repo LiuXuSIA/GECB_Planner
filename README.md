@@ -46,7 +46,7 @@ Particularly,  **the usage of path smoothing:**
  ## Demos
  These demos demonstrate the processes and results of the path generation and path smoothing.
  
-![](README_md_files/86b710a0-c142-11ed-b917-ef054118fc98_20230313095820.jpeg?v=1&type=image&token=V1:EXevrYBk5otMH8IZ2_MovBqPCsZrx_ET1LzWDi8LTbI =320x)   ![](README_md_files/7a3f1ec0-c143-11ed-b917-ef054118fc98_20230313100509.jpeg?v=1&type=image&token=V1:hiSFuUBsPBUQXYyh-j56-fK9N497wWPjipvrf8X3riY =395x)
+![](https://raw.githubusercontent.com/LiuXuSIA/GECB_Planner/master/demos/path_generation.gif =320x)   ![](https://raw.githubusercontent.com/LiuXuSIA/GECB_Planner/master/demos/path_smoothing.gif =395x)
 path generation (left) and path smoothing (right)
  
 ## License
