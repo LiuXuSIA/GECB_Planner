@@ -45,8 +45,7 @@ Particularly,  **the usage of path smoothing:**
  which can generate G2-continuous trajectories from the sparse terrain data.
  ## Demos
  These demos demonstrate the processes and results of the path generation and path smoothing.
- 
-![9InPv.md.gif](https://i.328888.xyz/2023/03/14/9InPv.md.gif =320x)   ![9IUEU.gif](https://i.328888.xyz/2023/03/14/9IUEU.gif =395x)
+ <img src="https://i.328888.xyz/2023/03/14/9InPv.gif" alt="9InPv.gif" border="0" width=320/> <img src="https://i.328888.xyz/2023/03/14/9IUEU.gif" alt="9IUEU.gif" border="0" width=395/> 
 path generation (left) and path smoothing (right)
  
 ## License
